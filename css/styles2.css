@@ -10,3 +10,21 @@ h1 {
     color:green
 }
 
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    /* background-color: rgb(202, 204, 16, 0.5 ); */
+    /* background-color: #ffe102; */
+    /* background-color: hsl(53deg 93% 51%); */
+    /* background: linear-gradient(45deg, dodgerblue, yellow, tomato); */
+
+    background-color: gold;
+    box-shadow: 0 0 30px gray;
+}
+
+h1{
+    color:white;
+    text-shadow: 3px 3px 5px rgba(0,0,0, 0.2);
+}
+

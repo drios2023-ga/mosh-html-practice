@@ -1,0 +1,28 @@
+table, td {
+    font-family:'Times New Roman', Times, serif;
+    font-size:small;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: #eef7ff;
+    border-top: 1px solid #c4dcf3;
+    border-bottom: 1px solid #c4dcf3;
+}
+
+tr:first-of-type, tr:last-of-type {
+    background-color: #427fef;
+    color: white;
+    font-weight: bolder;
+}
+
+.square{
+    background-color: tomato;
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+
+    box-shadow: 10px 10px lightgray;
+    border-radius: 10px;
+}
