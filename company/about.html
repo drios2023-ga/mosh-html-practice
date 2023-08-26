@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit:cover;
+        }
+
+        video {
+            width: 400px;
+        }
+        ul {
+            list-style-type: none;
+        }
+        table, td, th {
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        tfoot{
+            text-align: left;
+        }
+        .amt{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Expenses</th>
+            </tr>
+            <tr>
+                <th>Category</th>
+                <th class="amt">Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Marketing</td>
+                <td class="amt">$100</td>
+            </tr>
+            <tr>
+                <td>Accounting</td>
+                <td class="amt">$200</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th class="amt">$300</th>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
