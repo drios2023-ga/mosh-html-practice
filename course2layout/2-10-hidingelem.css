@@ -1,0 +1,7 @@
+.first{
+    display:hidden;
+
+/* hidden hides it but leaves the space where it was; display:none removes it as if it were never there */
+
+
+}
