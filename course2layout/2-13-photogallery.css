@@ -1,0 +1,26 @@
+
+img{
+    width: 95%;
+    margin: 5px;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+}
+
+@media screen and (max-width:767px){
+    .container{
+        grid-template-columns: 200px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){  
+    .container{
+        grid-template-columns: 250px 250px;
+    }
+}
+@media screen and (min-width:1024px){
+    .container{
+        grid-template-columns: 310px 310px 310px;
+    }
+}
